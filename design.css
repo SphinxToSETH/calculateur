@@ -1,0 +1,59 @@
+#calculator{
+	width: 370px;
+	height:480px;
+	border: 3px solid gray;
+	margin: 150px auto;
+	text-align: center;
+	box-shadow: 1px 1px 30px gray solid;
+	/* background: red;*/
+	background:url(https://media.giphy.com/media/M5NtWWMQpa9BC/giphy.gif)center no-repeat;
+  
+}
+
+
+#display
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 220px;
+	text-align: right;
+	border: 1px solid purple;
+	box-shadow: 0px 0px 30px purple;
+	font:20px bold;
+	color:black;
+}
+
+#keys
+{
+	width: 41px;
+	height: 35px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px lightblue;
+	cursor:pointer;
+}
+
+#keys:hover
+{
+	background: lightblue;
+	font-weight: bold;
+}
+
+#equal
+{
+	margin-left: 13px;
+	width: 96px;
+	height: 35px;
+	
+	margin-bottom: 200px;
+	box-shadow: 0px 0px 10px lightgreen;
+	cursor:pointer;
+}
+
+#equal:hover
+{
+	background: lightgreen;
+	font-weight: red;
+}
+
