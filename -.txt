@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+require 'twitter'
+
+client = Twitter::REST::Client.new do |config|
+  config.consumer_key        = "TthnOY9uz32NKuA3MN13hCCyu"
+  config.consumer_secret     = "MYAGwl0jLF1TmI8zsj6g6Edhp3Tn7JyBm5ruTnItGiGVZ9fHGP"
+  config.access_token        = "298676731-RUxLe6gJaJexhBSn6Lnnnx6LZn2mXjRQgQ8U0yQn"
+  config.access_token_secret = "tfOrACpPRMA4xXQEOCPqX7ADgA1gM9tSdRBN7EHJVPYqJ"
+end
+
+   client.search("#messi").take(100).each do |tweet|
+  puts tweet.text
+end
+
+
+
+
